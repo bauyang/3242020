@@ -1,0 +1,98 @@
+/*BACKGROUND AND TEXT */
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+#bg {
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2020/03/priscilla-du-preez-234138-unsplash.jpg);
+    color:white;
+    min-height: 100%;
+    background-size: cover;
+}
+
+h6 {
+    text:white;
+}
+
+.container {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.alignmiddle{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*NAV CSS*/
+
+.bg-light2 {
+    background-color: gray;
+}
+div .logo {
+    float: left;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.logo, .logo a {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html, body, div, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.navbar {
+    position: absolute !important;
+    background-color: gray;
+}
+.nav-link {
+    color: white !important;
+}
+.dropdown-menu {
+    background-color: #212326 !important;
+}
+.dropdown-menu a {
+    color: white !important;
+}
+.dropdown-menu a:hover {
+    background-color: #5C7C91;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 50px;
+    clear: both;
+}
+.menu {
+    clear: none;
+    z-index: 50;
+    line-height: 30px;
+    height: 100%;
+    margin: 0;
+    right: 0;
+    background: transparent;
+}
+
